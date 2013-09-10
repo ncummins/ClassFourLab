@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Results Page</title>
+        <title>Challenge 1 - Results Page</title>
     </head>
     <body>
         <%
