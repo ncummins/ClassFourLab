@@ -21,7 +21,7 @@ import model.CircleCalculator;
 @WebServlet(name = "CircleController", urlPatterns = {"/CircleController"})
 public class CircleController extends HttpServlet {
 
-    private static final String RESULT_PAGE = "/page2.jsp";
+    private static final String RESULT_PAGE = "/index.jsp";
 
     /**
      * Processes requests for both HTTP

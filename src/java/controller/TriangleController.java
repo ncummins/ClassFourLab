@@ -21,7 +21,7 @@ import model.TriangleCalculator;
 @WebServlet(name = "TriangleController", urlPatterns = {"/TriangleController"})
 public class TriangleController extends HttpServlet {
 
-    private static final String RESULT_PAGE = "/page2.jsp";
+    private static final String RESULT_PAGE = "/index.jsp";
 
     /**
      * Processes requests for both HTTP
