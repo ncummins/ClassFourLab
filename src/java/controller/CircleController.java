@@ -40,8 +40,7 @@ public class CircleController extends HttpServlet {
         try {
             double radius = Double.parseDouble(request.getParameter("radius"));
             CircleCalculator ca = new CircleCalculator(radius);
-
-            request.setAttribute("answer", ca.getArea());
+            request.setAttribute("circleAnswer", ca.getArea());
             RequestDispatcher view =
                     request.getRequestDispatcher(RESULT_PAGE);
             view.forward(request, response);

@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page 1</title>
+        <title>Challenge 2</title>
         <script type="text/javascript">
             function isNumber(n) {
                 return !isNaN(parseFloat(n)) && isFinite(n);
@@ -83,7 +83,7 @@
     </head>
     <body>
         <h1>Rectangle Calculator</h1>
-        <form id="calc1" name="calc1" method="POST" action="NewServlet1" onsubmit="return valRectangle()">
+        <form id="calc1" name="calc1" method="POST" action="RectangleController" onsubmit="return valRectangle()">
             Length:  <input type="text" name="length"><br>
             Width: <input type="text" name="width"><br>
             <input id="Submit" name="Submit" type="submit" value="Calculate">

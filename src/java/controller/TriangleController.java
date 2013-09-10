@@ -42,7 +42,7 @@ public class TriangleController extends HttpServlet {
             double sideB = Double.parseDouble(request.getParameter("sideB"));
             TriangleCalculator ca = new TriangleCalculator(sideA, sideB);
 
-            request.setAttribute("answer", ca.getArea());
+            request.setAttribute("triangleAnswer", ca.getArea());
             RequestDispatcher view =
                     request.getRequestDispatcher(RESULT_PAGE);
             view.forward(request, response);
